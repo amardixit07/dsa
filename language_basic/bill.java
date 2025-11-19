@@ -16,6 +16,7 @@ public class bill {
         int dosa_quantity = Integer.parseInt(scanner.nextLine());
         if(dosa_quantity<0){
             System.out.println("invalid input");
+            scanner.close();
             return;
         }
         System.out.println("enter idli quantity");

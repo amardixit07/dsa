@@ -17,7 +17,9 @@ public class electric_bill {
         int units = Integer.parseInt(sc.nextLine());
         if(units<0){
             System.out.println("invalid input");
+            sc.close();
             return;
+           
     
         }
         double billAmount = 0;

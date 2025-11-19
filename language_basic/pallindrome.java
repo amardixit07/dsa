@@ -23,6 +23,8 @@ System.out.println("input the number");
         {
 System.out.println("num is not pallindrome");
         }
+        sc.close();
     }
+    
     
 }

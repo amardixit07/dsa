@@ -15,6 +15,7 @@ public class fibonocci {
 
         }
         System.out.println(b);
+        sc.close();
     }
     
 }
